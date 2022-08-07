@@ -50,5 +50,4 @@ public class MenuController {
     public List<Menu> getMenuByCategory(@PathVariable String category) {
         return service.getMenuByCategory(category);
     }
-
 }
